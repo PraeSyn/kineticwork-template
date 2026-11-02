@@ -1,0 +1,11 @@
+# CODEOWNERS — required reviewers for master.
+#
+# master protection on this repo sets require_code_owner_reviews=true and
+# required_approving_review_count=1 (see PRA-8000). The code owner must therefore be an
+# identity that is able to approve, i.e. a non-author with write access.
+#
+# Reviewer of record: @beingben (human, write access on this repo).
+# Rule: the author identity (@PraeSynBH) never approves its own pull request. GitHub refuses
+# author self-approval, so every approval on this repo comes from the non-author identity named
+# below — that is what keeps the review gate meaningful rather than circular.
+*       @beingben
